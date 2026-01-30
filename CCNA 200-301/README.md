@@ -3,25 +3,23 @@
   <h1>Cisco CCNA 200-301 🚀</h1>
   
   <p>
-    Repositório oficial da minha jornada rumo à certificação <b>Cisco Certified Network Associate</b>.
+    Jornada rumo à certificação. Organizado por domínios de conhecimento.
   </p>
-  
-  <img src="https://img.shields.io/badge/Status-Em_Progresso-yellow?style=for-the-badge&logo=cisco&logoColor=white">
-  <img src="https://img.shields.io/badge/Exam-200--301-005073?style=for-the-badge">
 </div>
 
 <br>
 
-## 📂 Estrutura do Repositório
+## 📂 Estrutura de Estudos
+
+Cada pasta contém **Resumos Teóricos** e **Laboratórios Práticos (Packet Tracer/Eve-NG)** do respectivo tema.
 
 ```bash
 /
-├── 📄 Labs/               # Topologias e Exercícios Práticos
-│   ├── 🛠️ PacketTracer/   # Arquivos .pkt
-│   └── ☁️ EveNG/          # Laboratórios avançados
-│
-├── 📝 Notas/              # Resumos teóricos
-│   ├── 📡 Fundamentos/    # OSI, TCP/IP, Subnetting
-│   └── 🤖 Automacao/      # SDN, REST APIs, Ansible
-│
-└── 📜 README.md           # Este arquivo
+├── 📡 Fundamentos/         # Routers, Switches, Cabling, TCP/UDP
+├── 🔌 Acesso_Rede/         # VLANs, Trunking, Spanning Tree
+├── 🌐 Conectividade_IP/    # OSPF, Static Routing
+├── 🛠️ Servicos_IP/         # DHCP, DNS, SNMP, Syslog
+├── 🛡️ Seguranca/           # VPNs, ACLs, Layer 2 Security
+├── 🤖 Automacao/           # SDN, REST APIs, Ansible, JSON
+└── 📜 README.md
+
