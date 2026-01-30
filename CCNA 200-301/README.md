@@ -23,14 +23,14 @@
 
 Abaixo está a organização baseada nos **6 Domínios Oficiais** do exame Cisco. Clique no módulo para acessar os materiais.
 
-| 📂 Módulo | 🔍 Tópicos Principais |
+| 📂 Módulo Oficial (Blueprint) | 🔍 Tópicos Principais |
 | :--- | :--- |
-| **[1. Network Fundamentals](./Fundamentos)** | <br>📡 Routers, Switches, Cabling, TCP/UDP, IPv4/IPv6 Basics |
-| **[2. Network Access](./Acesso_Rede)** | <br>🔌 VLANs, Trunking, EtherChannel, Spanning Tree (STP) |
-| **[3. IP Connectivity](./Conectividade_IP)** | <br>🌐 Tabela de Roteamento, OSPFv2, Static Routing, GW de Redundância |
-| **[4. IP Services](./Servicos_IP)** | <br>🛠️ DHCP, DNS, NAT, NTP, SNMP, Syslog, SSH, QoS |
-| **[5. Security Fundamentals](./Seguranca)** | <br>🛡️ VPNs, ACLs, Layer 2 Security, Port Security, WPA2/WPA3 |
-| **[6. Automation & Prog.](./Automacao)** | <br>🤖 SDN, APIs (REST), JSON, Ansible, Puppet, Chef |
+| **[1.0 Network Fundamentals](./1.0%20Network%20Fundamentals)** | <br>📡 Routers, Switches, Cabling, TCP/UDP, IPv4/IPv6 Basics |
+| **[2.0 Network Access](./2.0%20Network%20Access)** | <br>🔌 VLANs, Trunking, EtherChannel, Spanning Tree (STP) |
+| **[3.0 IP Connectivity](./3.0%20IP%20Connectivity)** | <br>🌐 Tabela de Roteamento, OSPFv2, Static Routing, GW de Redundância |
+| **[4.0 IP Services](./4.0%20IP%20Services)** | <br>🛠️ DHCP, DNS, NAT, NTP, SNMP, Syslog, SSH, QoS |
+| **[5.0 Security Fundamentals](./5.0%20Security%20Fundamentals)** | <br>🛡️ VPNs, ACLs, Layer 2 Security, Port Security, WPA2/WPA3 |
+| **[6.0 Automation & Prog.](./6.0%20Automation%20and%20Programmability)** | <br>🤖 SDN, APIs (REST), JSON, Ansible, Puppet, Chef |
 
 <br>
 
@@ -38,7 +38,7 @@ Abaixo está a organização baseada nos **6 Domínios Oficiais** do exame Cisco
 
 ## 🏗️ Estrutura dos Laboratórios
 
-Dentro de cada pasta acima, você encontrará a seguinte organização:
+Dentro de cada pasta acima, a organização segue este padrão:
 
 * 📄 **Resumos:** Anotações teóricas e comandos importantes (`.md`)
 * 🛠️ **Packet Tracer:** Arquivos de simulação (`.pkt`)
@@ -48,8 +48,8 @@ Dentro de cada pasta acima, você encontrará a seguinte organização:
 
 <div align="center">
   <h3>📉 Progresso Geral</h3>
-  `[ ]` Fundamentos &nbsp;&nbsp;&nbsp; `[ ]` Acesso &nbsp;&nbsp;&nbsp; `[ ]` Conectividade <br>
-  `[ ]` Serviços IP &nbsp;&nbsp;&nbsp; `[ ]` Segurança &nbsp;&nbsp;&nbsp; `[ ]` Automação
+  `[ ]` 1.0 Fundamentals &nbsp;&nbsp; `[ ]` 2.0 Access &nbsp;&nbsp; `[ ]` 3.0 Connectivity <br>
+  `[ ]` 4.0 Services &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `[ ]` 5.0 Security &nbsp;&nbsp; `[ ]` 6.0 Automation
 </div>
 
 <br>
